@@ -1,0 +1,69 @@
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# Other files and folders
+.settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+
+mlflow.db
+.mlruns/
+mlruns/
+mlruns/
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.csv
+data/
+.venv/
+
+.conda/
+conda-meta/
+env/
+environment/
+myenv/
+.venv/
+
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Conda environments
+.conda/
+conda-meta/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# ML / MLOps generated data
+mlruns/
+# MLflow
+mlruns/
+mlartifacts/
+*.skops
+
+
+# macOS
+.DS_Store
